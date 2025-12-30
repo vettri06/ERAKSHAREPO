@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.env
+
+# Logs
+*.log
+logs/
+backend_debug.log
+iot_scanner.log
+
+# Runtime Data & Caches
+backend/reports/
+backend/devices.json
+backend/vuln_cache.json
+backend/anomaly_history.json
+backend/iot_scan_*.json
+anomaly_history.json
+vuln_cache.json
+devices.json
+
+# Backend Models (Optional: Keep if you want to ship pre-trained models, otherwise ignore)
+# backend/models/*.pkl
+# backend/iot_security/models/*.pkl
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env
+frontend/.env.local
+frontend/coverage/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# OS
+Thumbs.db

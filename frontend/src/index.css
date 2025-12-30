@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  :root {
+    --background: 220 20% 4%;
+    --foreground: 180 100% 90%;
+    --card: 220 25% 6%;
+    --card-foreground: 180 100% 90%;
+    --popover: 220 25% 8%;
+    --popover-foreground: 180 100% 90%;
+    --primary: 199 89% 48%;
+    --primary-foreground: 220 20% 4%;
+    --secondary: 220 25% 12%;
+    --secondary-foreground: 180 100% 90%;
+    --muted: 220 20% 15%;
+    --muted-foreground: 180 20% 60%;
+    --accent: 142 76% 45%;
+    --accent-foreground: 220 20% 4%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --warning: 45 93% 47%;
+    --warning-foreground: 220 20% 4%;
+    --success: 142 76% 45%;
+    --success-foreground: 220 20% 4%;
+    --info: 199 89% 48%;
+    --info-foreground: 220 20% 4%;
+    --border: 180 100% 20%;
+    --input: 220 25% 12%;
+    --ring: 199 89% 48%;
+    --chart-1: 199 89% 48%;
+    --chart-2: 142 76% 45%;
+    --chart-3: 45 93% 47%;
+    --chart-4: 0 84% 60%;
+    --chart-5: 280 65% 60%;
+    --radius: 0.5rem;
+    --sidebar-background: 220 25% 5%;
+    --sidebar-foreground: 180 100% 90%;
+    --sidebar-primary: 199 89% 48%;
+    --sidebar-primary-foreground: 220 20% 4%;
+    --sidebar-accent: 220 25% 12%;
+    --sidebar-accent-foreground: 180 100% 90%;
+    --sidebar-border: 180 100% 15%;
+    --sidebar-ring: 199 89% 48%;
+    --cyber-blue: 199 89% 48%;
+    --cyber-green: 142 76% 45%;
+    --cyber-red: 0 84% 60%;
+    --cyber-yellow: 45 93% 47%;
+    --cyber-purple: 280 65% 60%;
+    --terminal-green: 142 100% 50%;
+  }
+  .dark {
+    --background: 220 20% 4%;
+    --foreground: 180 100% 90%;
+    --card: 220 25% 6%;
+    --card-foreground: 180 100% 90%;
+    --popover: 220 25% 8%;
+    --popover-foreground: 180 100% 90%;
+    --primary: 199 89% 48%;
+    --primary-foreground: 220 20% 4%;
+    --secondary: 220 25% 12%;
+    --secondary-foreground: 180 100% 90%;
+    --muted: 220 20% 15%;
+    --muted-foreground: 180 20% 60%;
+    --accent: 142 76% 45%;
+    --accent-foreground: 220 20% 4%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 180 100% 20%;
+    --input: 220 25% 12%;
+    --ring: 199 89% 48%;
+  }
+}
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-mono antialiased;
+    font-family: 'JetBrains Mono', monospace;
+  }
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-background;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-primary/30 rounded-full;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-primary/50;
+  }
+}
+@layer components {
+  .terminal-text {
+    font-family: 'JetBrains Mono', monospace;
+    text-shadow: 0 0 5px hsl(var(--terminal-green) / 0.5);
+  }
+  .cyber-heading {
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 0.05em;
+  }
+  .glow-blue {
+    box-shadow: 0 0 10px hsl(var(--cyber-blue) / 0.3),
+                0 0 20px hsl(var(--cyber-blue) / 0.2),
+                0 0 30px hsl(var(--cyber-blue) / 0.1);
+  }
+  .glow-green {
+    box-shadow: 0 0 10px hsl(var(--cyber-green) / 0.3),
+                0 0 20px hsl(var(--cyber-green) / 0.2),
+                0 0 30px hsl(var(--cyber-green) / 0.1);
+  }
+  .glow-red {
+    box-shadow: 0 0 10px hsl(var(--cyber-red) / 0.3),
+                0 0 20px hsl(var(--cyber-red) / 0.2),
+                0 0 30px hsl(var(--cyber-red) / 0.1);
+  }
+  .text-glow-blue {
+    text-shadow: 0 0 10px hsl(var(--cyber-blue) / 0.5),
+                 0 0 20px hsl(var(--cyber-blue) / 0.3);
+  }
+  .text-glow-green {
+    text-shadow: 0 0 10px hsl(var(--cyber-green) / 0.5),
+                 0 0 20px hsl(var(--cyber-green) / 0.3);
+  }
+  .scanline {
+    position: relative;
+    overflow: hidden;
+  }
+  .scanline::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+      transparent 50%,
+      hsl(var(--background) / 0.03) 50%
+    );
+    background-size: 100% 4px;
+    pointer-events: none;
+  }
+  .cyber-grid {
+    background-image: 
+      linear-gradient(hsl(var(--border) / 0.1) 1px, transparent 1px),
+      linear-gradient(90deg, hsl(var(--border) / 0.1) 1px, transparent 1px);
+    background-size: 20px 20px;
+  }
+  .cyber-border {
+    @apply relative border border-border;
+  }
+  .cyber-border::before {
+    content: '';
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    right: -1px;
+    bottom: -1px;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      hsl(var(--primary)),
+      transparent
+    );
+    background-size: 200% 100%;
+    animation: border-scan 3s linear infinite;
+    opacity: 0.5;
+    z-index: -1;
+  }
+  @keyframes border-scan {
+    0% { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+  }
+  .pulse-cyber {
+    animation: pulse-glow 2s ease-in-out infinite;
+  }
+  @keyframes pulse-glow {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+  }
+  .status-online {
+    @apply bg-accent;
+    box-shadow: 0 0 10px hsl(var(--accent));
+  }
+  .status-offline {
+    @apply bg-destructive;
+    box-shadow: 0 0 10px hsl(var(--destructive));
+  }
+  .status-warning {
+    @apply bg-warning;
+    box-shadow: 0 0 10px hsl(var(--warning));
+  }
+  .cyber-card {
+    @apply bg-card border border-border rounded-lg transition-all duration-300;
+  }
+  .cyber-card:hover {
+    @apply border-primary/50;
+    box-shadow: 0 0 20px hsl(var(--primary) / 0.1);
+  }
+  .terminal-cursor {
+    display: inline-block;
+    width: 10px;
+    height: 18px;
+    background: hsl(var(--terminal-green));
+    animation: blink 1s step-end infinite;
+  }
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+  .log-info { @apply text-info; }
+  .log-warning { @apply text-warning; }
+  .log-error { @apply text-destructive; }
+  .log-debug { @apply text-muted-foreground; }
+}
+@layer utilities {
+  .animate-fade-in {
+    animation: fade-in 0.3s ease-out;
+  }
+  .animate-slide-up {
+    animation: slide-up 0.3s ease-out;
+  }
+  @keyframes slide-up {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+}

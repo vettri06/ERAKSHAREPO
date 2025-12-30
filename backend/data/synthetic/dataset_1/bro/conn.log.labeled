@@ -1,0 +1,102 @@
+#separator \x09
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	local_resp	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents	label	detailed-label
+1540000000.0	uid	192.168.1.100	80	1.1.1.1	53	udp	dns	0.1	100	200	-	-	-	-	2	-	2	-	-	Benign	Benign
+1540000000.0	uid	192.168.1.100	80	1.1.1.1	53	udp	dns	0.1	100	200	-	-	-	-	2	-	2	-	-	Benign	Benign
+1540000000.0	uid	192.168.1.100	80	1.1.1.1	53	udp	dns	0.1	100	200	-	-	-	-	2	-	2	-	-	Benign	Benign
+1540000000.0	uid	192.168.1.100	80	1.1.1.1	53	udp	dns	0.1	100	200	-	-	-	-	2	-	2	-	-	Benign	Benign
+1540000000.0	uid	192.168.1.100	80	1.1.1.1	53	udp	dns	0.1	100	200	-	-	-	-	2	-	2	-	-	Benign	Benign
+1540000000.0	uid	192.168.1.100	80	1.1.1.1	53	udp	dns	0.1	100	200	-	-	-	-	2	-	2	-	-	Benign	Benign
+1540000000.0	uid	192.168.1.100	80	1.1.1.1	53	udp	dns	0.1	100	200	-	-	-	-	2	-	2	-	-	Benign	Benign
+1540000000.0	uid	192.168.1.100	80	1.1.1.1	53	udp	dns	0.1	100	200	-	-	-	-	2	-	2	-	-	Benign	Benign
+1540000000.0	uid	192.168.1.100	80	1.1.1.1	53	udp	dns	0.1	100	200	-	-	-	-	2	-	2	-	-	Benign	Benign
+1540000000.0	uid	192.168.1.100	80	1.1.1.1	53	udp	dns	0.1	100	200	-	-	-	-	2	-	2	-	-	Benign	Benign
+1540000000.0	uid	192.168.1.100	80	1.1.1.1	53	udp	dns	0.1	100	200	-	-	-	-	2	-	2	-	-	Benign	Benign
+1540000000.0	uid	192.168.1.100	80	1.1.1.1	53	udp	dns	0.1	100	200	-	-	-	-	2	-	2	-	-	Benign	Benign
+1540000000.0	uid	192.168.1.100	80	1.1.1.1	53	udp	dns	0.1	100	200	-	-	-	-	2	-	2	-	-	Benign	Benign
+1540000000.0	uid	192.168.1.100	80	1.1.1.1	53	udp	dns	0.1	100	200	-	-	-	-	2	-	2	-	-	Benign	Benign
+1540000000.0	uid	192.168.1.100	80	1.1.1.1	53	udp	dns	0.1	100	200	-	-	-	-	2	-	2	-	-	Benign	Benign
+1540000000.0	uid	192.168.1.100	80	1.1.1.1	53	udp	dns	0.1	100	200	-	-	-	-	2	-	2	-	-	Benign	Benign
+1540000000.0	uid	192.168.1.100	80	1.1.1.1	53	udp	dns	0.1	100	200	-	-	-	-	2	-	2	-	-	Benign	Benign
+1540000000.0	uid	192.168.1.100	80	1.1.1.1	53	udp	dns	0.1	100	200	-	-	-	-	2	-	2	-	-	Benign	Benign
+1540000000.0	uid	192.168.1.100	80	1.1.1.1	53	udp	dns	0.1	100	200	-	-	-	-	2	-	2	-	-	Benign	Benign
+1540000000.0	uid	192.168.1.100	80	1.1.1.1	53	udp	dns	0.1	100	200	-	-	-	-	2	-	2	-	-	Benign	Benign
+1540000000.0	uid	192.168.1.100	80	1.1.1.1	53	udp	dns	0.1	100	200	-	-	-	-	2	-	2	-	-	Benign	Benign
+1540000000.0	uid	192.168.1.100	80	1.1.1.1	53	udp	dns	0.1	100	200	-	-	-	-	2	-	2	-	-	Benign	Benign
+1540000000.0	uid	192.168.1.100	80	1.1.1.1	53	udp	dns	0.1	100	200	-	-	-	-	2	-	2	-	-	Benign	Benign
+1540000000.0	uid	192.168.1.100	80	1.1.1.1	53	udp	dns	0.1	100	200	-	-	-	-	2	-	2	-	-	Benign	Benign
+1540000000.0	uid	192.168.1.100	80	1.1.1.1	53	udp	dns	0.1	100	200	-	-	-	-	2	-	2	-	-	Benign	Benign
+1540000000.0	uid	192.168.1.100	80	1.1.1.1	53	udp	dns	0.1	100	200	-	-	-	-	2	-	2	-	-	Benign	Benign
+1540000000.0	uid	192.168.1.100	80	1.1.1.1	53	udp	dns	0.1	100	200	-	-	-	-	2	-	2	-	-	Benign	Benign
+1540000000.0	uid	192.168.1.100	80	1.1.1.1	53	udp	dns	0.1	100	200	-	-	-	-	2	-	2	-	-	Benign	Benign
+1540000000.0	uid	192.168.1.100	80	1.1.1.1	53	udp	dns	0.1	100	200	-	-	-	-	2	-	2	-	-	Benign	Benign
+1540000000.0	uid	192.168.1.100	80	1.1.1.1	53	udp	dns	0.1	100	200	-	-	-	-	2	-	2	-	-	Benign	Benign
+1540000000.0	uid	192.168.1.100	80	1.1.1.1	53	udp	dns	0.1	100	200	-	-	-	-	2	-	2	-	-	Benign	Benign
+1540000000.0	uid	192.168.1.100	80	1.1.1.1	53	udp	dns	0.1	100	200	-	-	-	-	2	-	2	-	-	Benign	Benign
+1540000000.0	uid	192.168.1.100	80	1.1.1.1	53	udp	dns	0.1	100	200	-	-	-	-	2	-	2	-	-	Benign	Benign
+1540000000.0	uid	192.168.1.100	80	1.1.1.1	53	udp	dns	0.1	100	200	-	-	-	-	2	-	2	-	-	Benign	Benign
+1540000000.0	uid	192.168.1.100	80	1.1.1.1	53	udp	dns	0.1	100	200	-	-	-	-	2	-	2	-	-	Benign	Benign
+1540000000.0	uid	192.168.1.100	80	1.1.1.1	53	udp	dns	0.1	100	200	-	-	-	-	2	-	2	-	-	Benign	Benign
+1540000000.0	uid	192.168.1.100	80	1.1.1.1	53	udp	dns	0.1	100	200	-	-	-	-	2	-	2	-	-	Benign	Benign
+1540000000.0	uid	192.168.1.100	80	1.1.1.1	53	udp	dns	0.1	100	200	-	-	-	-	2	-	2	-	-	Benign	Benign
+1540000000.0	uid	192.168.1.100	80	1.1.1.1	53	udp	dns	0.1	100	200	-	-	-	-	2	-	2	-	-	Benign	Benign
+1540000000.0	uid	192.168.1.100	80	1.1.1.1	53	udp	dns	0.1	100	200	-	-	-	-	2	-	2	-	-	Benign	Benign
+1540000000.0	uid	192.168.1.100	80	1.1.1.1	53	udp	dns	0.1	100	200	-	-	-	-	2	-	2	-	-	Benign	Benign
+1540000000.0	uid	192.168.1.100	80	1.1.1.1	53	udp	dns	0.1	100	200	-	-	-	-	2	-	2	-	-	Benign	Benign
+1540000000.0	uid	192.168.1.100	80	1.1.1.1	53	udp	dns	0.1	100	200	-	-	-	-	2	-	2	-	-	Benign	Benign
+1540000000.0	uid	192.168.1.100	80	1.1.1.1	53	udp	dns	0.1	100	200	-	-	-	-	2	-	2	-	-	Benign	Benign
+1540000000.0	uid	192.168.1.100	80	1.1.1.1	53	udp	dns	0.1	100	200	-	-	-	-	2	-	2	-	-	Benign	Benign
+1540000000.0	uid	192.168.1.100	80	1.1.1.1	53	udp	dns	0.1	100	200	-	-	-	-	2	-	2	-	-	Benign	Benign
+1540000000.0	uid	192.168.1.100	80	1.1.1.1	53	udp	dns	0.1	100	200	-	-	-	-	2	-	2	-	-	Benign	Benign
+1540000000.0	uid	192.168.1.100	80	1.1.1.1	53	udp	dns	0.1	100	200	-	-	-	-	2	-	2	-	-	Benign	Benign
+1540000000.0	uid	192.168.1.100	80	1.1.1.1	53	udp	dns	0.1	100	200	-	-	-	-	2	-	2	-	-	Benign	Benign
+1540000000.0	uid	192.168.1.100	80	1.1.1.1	53	udp	dns	0.1	100	200	-	-	-	-	2	-	2	-	-	Benign	Benign
+1540000000.0	uid	192.168.1.101	23	1.1.1.1	23	tcp	-	0.01	20	0	-	-	-	-	1	-	0	-	-	Malicious   C&C-Mirai	Mirai
+1540000000.0	uid	192.168.1.101	23	1.1.1.1	23	tcp	-	0.01	20	0	-	-	-	-	1	-	0	-	-	Malicious   C&C-Mirai	Mirai
+1540000000.0	uid	192.168.1.101	23	1.1.1.1	23	tcp	-	0.01	20	0	-	-	-	-	1	-	0	-	-	Malicious   C&C-Mirai	Mirai
+1540000000.0	uid	192.168.1.101	23	1.1.1.1	23	tcp	-	0.01	20	0	-	-	-	-	1	-	0	-	-	Malicious   C&C-Mirai	Mirai
+1540000000.0	uid	192.168.1.101	23	1.1.1.1	23	tcp	-	0.01	20	0	-	-	-	-	1	-	0	-	-	Malicious   C&C-Mirai	Mirai
+1540000000.0	uid	192.168.1.101	23	1.1.1.1	23	tcp	-	0.01	20	0	-	-	-	-	1	-	0	-	-	Malicious   C&C-Mirai	Mirai
+1540000000.0	uid	192.168.1.101	23	1.1.1.1	23	tcp	-	0.01	20	0	-	-	-	-	1	-	0	-	-	Malicious   C&C-Mirai	Mirai
+1540000000.0	uid	192.168.1.101	23	1.1.1.1	23	tcp	-	0.01	20	0	-	-	-	-	1	-	0	-	-	Malicious   C&C-Mirai	Mirai
+1540000000.0	uid	192.168.1.101	23	1.1.1.1	23	tcp	-	0.01	20	0	-	-	-	-	1	-	0	-	-	Malicious   C&C-Mirai	Mirai
+1540000000.0	uid	192.168.1.101	23	1.1.1.1	23	tcp	-	0.01	20	0	-	-	-	-	1	-	0	-	-	Malicious   C&C-Mirai	Mirai
+1540000000.0	uid	192.168.1.101	23	1.1.1.1	23	tcp	-	0.01	20	0	-	-	-	-	1	-	0	-	-	Malicious   C&C-Mirai	Mirai
+1540000000.0	uid	192.168.1.101	23	1.1.1.1	23	tcp	-	0.01	20	0	-	-	-	-	1	-	0	-	-	Malicious   C&C-Mirai	Mirai
+1540000000.0	uid	192.168.1.101	23	1.1.1.1	23	tcp	-	0.01	20	0	-	-	-	-	1	-	0	-	-	Malicious   C&C-Mirai	Mirai
+1540000000.0	uid	192.168.1.101	23	1.1.1.1	23	tcp	-	0.01	20	0	-	-	-	-	1	-	0	-	-	Malicious   C&C-Mirai	Mirai
+1540000000.0	uid	192.168.1.101	23	1.1.1.1	23	tcp	-	0.01	20	0	-	-	-	-	1	-	0	-	-	Malicious   C&C-Mirai	Mirai
+1540000000.0	uid	192.168.1.101	23	1.1.1.1	23	tcp	-	0.01	20	0	-	-	-	-	1	-	0	-	-	Malicious   C&C-Mirai	Mirai
+1540000000.0	uid	192.168.1.101	23	1.1.1.1	23	tcp	-	0.01	20	0	-	-	-	-	1	-	0	-	-	Malicious   C&C-Mirai	Mirai
+1540000000.0	uid	192.168.1.101	23	1.1.1.1	23	tcp	-	0.01	20	0	-	-	-	-	1	-	0	-	-	Malicious   C&C-Mirai	Mirai
+1540000000.0	uid	192.168.1.101	23	1.1.1.1	23	tcp	-	0.01	20	0	-	-	-	-	1	-	0	-	-	Malicious   C&C-Mirai	Mirai
+1540000000.0	uid	192.168.1.101	23	1.1.1.1	23	tcp	-	0.01	20	0	-	-	-	-	1	-	0	-	-	Malicious   C&C-Mirai	Mirai
+1540000000.0	uid	192.168.1.101	23	1.1.1.1	23	tcp	-	0.01	20	0	-	-	-	-	1	-	0	-	-	Malicious   C&C-Mirai	Mirai
+1540000000.0	uid	192.168.1.101	23	1.1.1.1	23	tcp	-	0.01	20	0	-	-	-	-	1	-	0	-	-	Malicious   C&C-Mirai	Mirai
+1540000000.0	uid	192.168.1.101	23	1.1.1.1	23	tcp	-	0.01	20	0	-	-	-	-	1	-	0	-	-	Malicious   C&C-Mirai	Mirai
+1540000000.0	uid	192.168.1.101	23	1.1.1.1	23	tcp	-	0.01	20	0	-	-	-	-	1	-	0	-	-	Malicious   C&C-Mirai	Mirai
+1540000000.0	uid	192.168.1.101	23	1.1.1.1	23	tcp	-	0.01	20	0	-	-	-	-	1	-	0	-	-	Malicious   C&C-Mirai	Mirai
+1540000000.0	uid	192.168.1.101	23	1.1.1.1	23	tcp	-	0.01	20	0	-	-	-	-	1	-	0	-	-	Malicious   C&C-Mirai	Mirai
+1540000000.0	uid	192.168.1.101	23	1.1.1.1	23	tcp	-	0.01	20	0	-	-	-	-	1	-	0	-	-	Malicious   C&C-Mirai	Mirai
+1540000000.0	uid	192.168.1.101	23	1.1.1.1	23	tcp	-	0.01	20	0	-	-	-	-	1	-	0	-	-	Malicious   C&C-Mirai	Mirai
+1540000000.0	uid	192.168.1.101	23	1.1.1.1	23	tcp	-	0.01	20	0	-	-	-	-	1	-	0	-	-	Malicious   C&C-Mirai	Mirai
+1540000000.0	uid	192.168.1.101	23	1.1.1.1	23	tcp	-	0.01	20	0	-	-	-	-	1	-	0	-	-	Malicious   C&C-Mirai	Mirai
+1540000000.0	uid	192.168.1.101	23	1.1.1.1	23	tcp	-	0.01	20	0	-	-	-	-	1	-	0	-	-	Malicious   C&C-Mirai	Mirai
+1540000000.0	uid	192.168.1.101	23	1.1.1.1	23	tcp	-	0.01	20	0	-	-	-	-	1	-	0	-	-	Malicious   C&C-Mirai	Mirai
+1540000000.0	uid	192.168.1.101	23	1.1.1.1	23	tcp	-	0.01	20	0	-	-	-	-	1	-	0	-	-	Malicious   C&C-Mirai	Mirai
+1540000000.0	uid	192.168.1.101	23	1.1.1.1	23	tcp	-	0.01	20	0	-	-	-	-	1	-	0	-	-	Malicious   C&C-Mirai	Mirai
+1540000000.0	uid	192.168.1.101	23	1.1.1.1	23	tcp	-	0.01	20	0	-	-	-	-	1	-	0	-	-	Malicious   C&C-Mirai	Mirai
+1540000000.0	uid	192.168.1.101	23	1.1.1.1	23	tcp	-	0.01	20	0	-	-	-	-	1	-	0	-	-	Malicious   C&C-Mirai	Mirai
+1540000000.0	uid	192.168.1.101	23	1.1.1.1	23	tcp	-	0.01	20	0	-	-	-	-	1	-	0	-	-	Malicious   C&C-Mirai	Mirai
+1540000000.0	uid	192.168.1.101	23	1.1.1.1	23	tcp	-	0.01	20	0	-	-	-	-	1	-	0	-	-	Malicious   C&C-Mirai	Mirai
+1540000000.0	uid	192.168.1.101	23	1.1.1.1	23	tcp	-	0.01	20	0	-	-	-	-	1	-	0	-	-	Malicious   C&C-Mirai	Mirai
+1540000000.0	uid	192.168.1.101	23	1.1.1.1	23	tcp	-	0.01	20	0	-	-	-	-	1	-	0	-	-	Malicious   C&C-Mirai	Mirai
+1540000000.0	uid	192.168.1.101	23	1.1.1.1	23	tcp	-	0.01	20	0	-	-	-	-	1	-	0	-	-	Malicious   C&C-Mirai	Mirai
+1540000000.0	uid	192.168.1.101	23	1.1.1.1	23	tcp	-	0.01	20	0	-	-	-	-	1	-	0	-	-	Malicious   C&C-Mirai	Mirai
+1540000000.0	uid	192.168.1.101	23	1.1.1.1	23	tcp	-	0.01	20	0	-	-	-	-	1	-	0	-	-	Malicious   C&C-Mirai	Mirai
+1540000000.0	uid	192.168.1.101	23	1.1.1.1	23	tcp	-	0.01	20	0	-	-	-	-	1	-	0	-	-	Malicious   C&C-Mirai	Mirai
+1540000000.0	uid	192.168.1.101	23	1.1.1.1	23	tcp	-	0.01	20	0	-	-	-	-	1	-	0	-	-	Malicious   C&C-Mirai	Mirai
+1540000000.0	uid	192.168.1.101	23	1.1.1.1	23	tcp	-	0.01	20	0	-	-	-	-	1	-	0	-	-	Malicious   C&C-Mirai	Mirai
+1540000000.0	uid	192.168.1.101	23	1.1.1.1	23	tcp	-	0.01	20	0	-	-	-	-	1	-	0	-	-	Malicious   C&C-Mirai	Mirai
+1540000000.0	uid	192.168.1.101	23	1.1.1.1	23	tcp	-	0.01	20	0	-	-	-	-	1	-	0	-	-	Malicious   C&C-Mirai	Mirai
+1540000000.0	uid	192.168.1.101	23	1.1.1.1	23	tcp	-	0.01	20	0	-	-	-	-	1	-	0	-	-	Malicious   C&C-Mirai	Mirai
+1540000000.0	uid	192.168.1.101	23	1.1.1.1	23	tcp	-	0.01	20	0	-	-	-	-	1	-	0	-	-	Malicious   C&C-Mirai	Mirai
