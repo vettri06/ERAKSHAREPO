@@ -1,4 +1,4 @@
-NVD_API_KEY = "b9753cd1-8ade-4d21-bf7c-bca73900d1bc"
+NVD_API_KEY = ""
 SCAN_CONFIG = {
     'default_timeout': 5,
     'max_ports': 100,
